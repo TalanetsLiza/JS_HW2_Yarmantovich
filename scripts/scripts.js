@@ -115,5 +115,37 @@ const b = 2;
     console.log(`${hours} часов`);
     console.log(`${minutes} минут`);
     console.log(`${seconds} секунд`);
+}
 
+{
+    // Task 10
+    const DAYES_PER_MONTHS = 31;
+
+    const day = 380;
+    const months = day / DAYES_PER_MONTHS;
+
+    switch (Math.ceil(months)) {
+        case 1:
+        case 2:
+        case 12:
+            console.log("Зима");
+            break;
+        case 3:
+        case 4:
+        case 5:
+            console.log("Весна");
+            break;
+        case 6:
+        case 7:
+        case 8:    
+            console.log("Лето");
+            break;
+        case 9:
+        case 10:
+        case 11:
+            console.log("Осень");
+            break;
+        default:
+            console.log("Неверное значение");
+    }
 }
