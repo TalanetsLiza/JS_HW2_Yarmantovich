@@ -61,3 +61,16 @@ const b = 2;
         console.log("Четвертая");
     }
 }
+
+{
+    // Task 8
+
+    const day = 22;
+    if (day <= 10) {
+        console.log("Первая");
+    } else if (day <= 20) {
+        console.log("Вторая");
+    } else {
+        console.log("Третья");
+    }
+}
