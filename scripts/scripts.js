@@ -9,5 +9,14 @@
     } else {
         console.log ("Нет");
     }
-    
+
+}
+
+{
+    // Task 4
+
+    const a = -1;
+    const moreAnswer = a > 0 ? "Верно" : "Неверно";
+    console.log(moreAnswer);
+
 }
