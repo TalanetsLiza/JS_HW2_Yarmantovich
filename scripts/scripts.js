@@ -74,3 +74,46 @@ const b = 2;
         console.log("Третья");
     }
 }
+
+{
+    // Task 9
+    const DAYES_PER_YEAR = 365;
+    const DAYES_PER_MONTHS = 31;
+    const DAYES_PER_WEEK = 7;
+    const HOURS_PER_DAY = 24;
+    const MINUTES_PER_HOUR = 60;
+    const SECONDS_PER_MINUTE = 60;
+
+    const days = 1;
+    const years = days / DAYES_PER_YEAR;
+    const months = days / DAYES_PER_MONTHS;
+    const weeks = days / DAYES_PER_WEEK;
+    const hours = days * HOURS_PER_DAY;
+    const minutes = hours * MINUTES_PER_HOUR;
+    const seconds = minutes * SECONDS_PER_MINUTE;
+
+    console.log(`${days} день это:`);
+
+    if (years < 1) {
+		console.log("Меньше года");
+	} else {
+        console.log(`${years} лет`);
+    }
+
+    if (months < 1) {
+		console.log("Меньше месяца");
+	} else {
+        console.log(`${months} месяцев`);
+    }
+
+    if (weeks < 1) {
+		console.log("Меньше недели");
+	} else {
+        console.log(`${weeks} недель`);
+    }
+
+    console.log(`${hours} часов`);
+    console.log(`${minutes} минут`);
+    console.log(`${seconds} секунд`);
+
+}
