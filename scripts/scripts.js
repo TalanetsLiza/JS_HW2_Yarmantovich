@@ -46,3 +46,18 @@ const b = 2;
 		console.log("Неверно");
 	}
 }
+
+{
+    // Task 7
+
+    const n = 41;
+    if (n <= 15) {
+        console.log("Первая");
+    } else if (n <= 30) {
+        console.log("Вторая");
+    } else if (n <= 45) {
+        console.log("Третья");
+    } else {
+        console.log("Четвертая");
+    }
+}
