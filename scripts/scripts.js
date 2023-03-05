@@ -36,3 +36,13 @@ const b = 2;
     }   
 
 }
+
+{
+      // Task 6
+
+	if ((a > 2 && a < 11) || (b >= 6 && b < 14)) {
+		console.log("Верно");
+	} else {
+		console.log("Неверно");
+	}
+}
